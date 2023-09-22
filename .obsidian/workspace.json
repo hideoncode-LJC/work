@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "e3a96ec16abbcd66",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8bc1773c48f1c39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95adffb0220b154e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "779f6199858c0aa2",
+    "type": "split",
+    "children": [
+      {
+        "id": "b98c7a5485323d54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebf3fcc826ab47b5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d7533a1f887af1dc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1f3822808d6983c7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a4f07d40f51d9509",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5e3a35668642ed2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "316d7c460b8d6cfe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "14c256b3e586bb12",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f5c29eff8d4b4fd4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "01df41726390712c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "316d7c460b8d6cfe",
+  "lastOpenFiles": [
+    "流程控制.md",
+    "computer-internet",
+    "database/redis/datatypes/zset",
+    "database/redis/datatypes/hash",
+    "database/redis/datatypes/set",
+    "database/redis/datatypes/list",
+    "database/redis/datatypes/string",
+    "database/redis/network-model",
+    "database/redis/persistence",
+    "未命名",
+    "database/redis/underlying-datatypes"
+  ]
+}
