@@ -4,18 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "b8bc1773c48f1c39",
+        "id": "0cdd008eb4be6d70",
         "type": "tabs",
         "children": [
           {
-            "id": "95adffb0220b154e",
+            "id": "314bbc506c958e8d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "database/redis/network-model/user space & kernel space.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aee4bb9a42b673bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "database/redis/network-model/Blocking IO.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5ec9f9f6774ec03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "database/redis/network-model/Nonblocking IO.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "database/redis/network-model/Nonblocking IO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "database/redis/network-model/Nonblocking IO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "database/redis/network-model/Nonblocking IO.md"
+              }
             }
           }
         ]
@@ -138,18 +171,27 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "316d7c460b8d6cfe",
+  "active": "a5ec9f9f6774ec03",
   "lastOpenFiles": [
-    "流程控制.md",
-    "computer-internet",
-    "database/redis/datatypes/zset",
-    "database/redis/datatypes/hash",
-    "database/redis/datatypes/set",
-    "database/redis/datatypes/list",
-    "database/redis/datatypes/string",
-    "database/redis/network-model",
-    "database/redis/persistence",
-    "未命名",
-    "database/redis/underlying-datatypes"
+    "golang/gopro/process-control.md",
+    "database/redis/network-model/Nonblocking IO.md",
+    "database/redis/network-model/Blocking IO.md",
+    "database/redis/network-model/user space & kernel space.md",
+    "computer-internet/http/http基本概念.md",
+    "Image/Pasted image 20230922220912.png",
+    "Image/Pasted image 20230922220448.png",
+    "Information-security",
+    "Image/Pasted image 20230922213309.png",
+    "database/redis/underlying-datatypes/dict/dict.md",
+    "Image/Pasted image 20230922213053.png",
+    "database/redis/underlying-datatypes/dict/dict_test.go",
+    "database/redis/underlying-datatypes/dict/dict.go",
+    "golang/golib",
+    "golang/gopro",
+    "golang/gopro/type",
+    "database/redis/underlying-datatypes/redisobject",
+    "intset",
+    "database/redis/underlying-datatypes/sds",
+    "database/redis/underlying-datatypes/skiplist"
   ]
 }
