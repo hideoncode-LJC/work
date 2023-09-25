@@ -1,0 +1,37 @@
+# Syntax
+
+```shell
+APPEND KEY VALUE
+```
+
+> The amortized time complexity is O(1) assuming the appended value is small and the already present value is of any size, since the dynamic string library used by Redis will double the free space available on every reallocation.
+
++ 平均时间复杂度为`O(1)`。
++ `key`存在则会直接拼接到`value`的后面。
++ `key`不存在功能就和`SET`一样。
+# Return
+
++ 返回`Integer Reply`，返回append operation操作后字符串的长度。
+
+# Examples
+
+```go
+func main() {
+    rdb := connect.GetConnect()
+    // 当KEY不存在时
+    len, err := rdb.Append(context.Background(), "append:key", "append:value").Result()
+    if err != nil {
+        mylog.HandleError(err)
+    }
+    fmt.Println("len = ", len)
+    result, _ := rdb.Get(context.Background(), "append:key").Result()
+    fmt.Println("result = ", result)
+}
+```
+
+
+
+# Pattern
+
+time series 
+待完成
