@@ -1,4 +1,7 @@
->Introduction to Redis hashes
+Introduction to Redis hashes
+
+>
+
 
 >Redis hashes are record types structured as collections of field-value pairs. You can use hashes to represent basic objects and to store groupings of counters, among other things.
 
